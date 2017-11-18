@@ -1,6 +1,7 @@
 # Pre Requisites
 * Install Java 7/8
-* If on windows install git bash
+* [Download](https://git-scm.com/downloads) and install git
+* If you're on windows make sure to install git bash
 
 # Installing
 * Clone this repository with `git clone`
@@ -10,15 +11,16 @@
 # Building & Installation
 ## Windows
 * Double click the `build.bat` and then double click that `start.bat filename`
-* Just agree with the eula terms and that's it!
+* Just [agree with the eula terms](#troubleshooting) and that's it!
 
 ## Linux
 If you want to run with terminal follow this instructions:
 * To build `sh build.sh`
 * To start the server `sh start.sh filename`
-* Just agree with the eula terms and that's it!
+* Just [agree with the eula terms](#troubleshooting) and that's it!
 
-Now, if you want to run all the sh files with doubl click run the following command: `chmod +x *.sh`
+Now, if you want to run all the `sh` files with double click, run the following command: `chmod +x *.sh`.
+You must also change the `spigot-x.x.x.jar` to just `spigot.jar`.
 
 # Using github as "backup"
 As github has stated, you should not use github as your only backup, so this is
@@ -31,5 +33,5 @@ following lines.
 #!world*/
 #!plugins/
 ```
-# Trobleshooting
-Server not running? Remember to set `eula=true` in the `eula.txt` file. If you are not using the terminal and want to double click you must change the `spigot-x.x.x.jar` to just `spigot.jar`
+# Troubleshooting
+Server not running? Remember to set `eula=true` in the `eula.txt` file. Remember that if you are not using the terminal and want to double click you must change the `spigot-x.x.x.jar` to just `spigot.jar`
