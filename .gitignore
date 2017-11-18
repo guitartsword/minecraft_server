@@ -1,0 +1,11 @@
+/*
+!.gitignore
+!start.*
+!build.*
+!README*
+
+# Uncomment the following ones to use this gituhun repository
+# as backup to your server plugins configurations and world data.
+# You can add as much more folders as you want!
+#!world*/
+#!plugins/
